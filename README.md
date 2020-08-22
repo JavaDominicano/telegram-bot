@@ -30,3 +30,6 @@ BotInitializer.init(Set.of(
     new ExampleHandler()
 ));
 ```
+
+### Notes:
+Try to use the YourClasNameHandler nomenclature to keep the code as uniform as possible.
