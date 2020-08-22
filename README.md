@@ -22,7 +22,7 @@ public class ExampleHandler implements Handler {
 }
 ```
 
-The main class( ```App.java```) has a initilizer method "init" of BotInitilizer class, in the same package. The init method receive a set of implementations of the ```org.javadominicano.telegram.bot.Bot.Handler``` interface.
+The main class( ```App.java```) has a initilizer method "init" of BotInitilizer class, in the same package. The init method receive a set of implementations of the ```org.javadominicano.telegram.bot.Bot.Handler``` interface, where you should place your implementation.
 
 ```
 BotInitializer.init(Set.of(
