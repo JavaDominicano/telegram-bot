@@ -1,4 +1,7 @@
 /target
+/data
 /.project
 /.classpath
 **/.settings
+/.md
+**/.vscode
