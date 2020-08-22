@@ -32,4 +32,4 @@ BotInitializer.init(Set.of(
 ```
 
 ### Notes:
-As a nomenclature *proposal*, try to use the **YourClasName**Handler for your handler classes, to keep the code as uniform as possible.
+As a nomenclature **proposal**, try to use the **YourClasName**Handler for your handler classes, to keep the code as uniform as possible.
