@@ -8,7 +8,7 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 public class Bot extends TelegramLongPollingBot {
 
-    public Set<Handler> handlers;
+    private Set<Handler> handlers;
 
     Bot(Set<Handler> handlers) {
         super();
