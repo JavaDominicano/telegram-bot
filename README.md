@@ -24,6 +24,14 @@ public class ExampleHandler implements Handler {
 
 The main class( ```App.java```) has a initilizer method "init" of BotInitilizer class, in the same package. The init method receive a set of implementations of the ```org.javadominicano.telegram.bot.Bot.Handler``` interface, where you should place your implementation.
 
+
+```
+BotInitializer.init(Set.of(
+    new RegisterHandler(), 
+    new ExampleHandler()
+));
+```
+
 ## How to run the jar?
 
 Run the main class (```App.java```) in maven
@@ -33,12 +41,5 @@ mvn exec:java -Dexec.mainClass="org.javadominicano.telegram.bot.App"
 
 Also, you can compile the app and run the resulting jar in the target folder
 
-```
-BotInitializer.init(Set.of(
-    new RegisterHandler(), 
-    new ExampleHandler()
-));
-```
-
-### Notes:
+## Notes:
 As a nomenclature **proposal**, try to use the **YourClasName**Handler for your handler classes, to keep the code as uniform as possible.
